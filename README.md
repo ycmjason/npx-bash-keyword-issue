@@ -1,5 +1,7 @@
 # npx shell Keyword Issue
 
+> See https://github.com/npm/cli/issues/8190
+
 ## Problem Description
 
 When using `npx` to execute binaries whose names match shell keywords, the execution fails with syntax errors. For example:
